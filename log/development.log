@@ -1585,3 +1585,34 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpV2BQMfdd3i9pO+4E/Xfa5/xx7zkrtjnnXm+JifV7iBQvd/dvxAOLarnCF4g99bmLfsA7/yNAiZ/Oeq1VgfNw==", "zipcode"=>"", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 112ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 74.108.39.105 at 2018-07-28 18:06:09 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpV2BQMfdd3i9pO+4E/Xfa5/xx7zkrtjnnXm+JifV7iBQvd/dvxAOLarnCF4g99bmLfsA7/yNAiZ/Oeq1VgfNw==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 132ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 74.108.39.105 at 2018-07-28 18:06:12 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EhdmMq0gAROTZ4SKmOdcx+Qu2/o7BTnj1nokDBMmh/PNwOdI2MM09sc6ixUAK1Th0ubw53dltojR8yVeXuHPfA==", "zipcode"=>"06807", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 254ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 74.108.39.105 at 2018-07-28 18:06:23 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ioLdpR3yzREE2VE10y8bhcpbAup5xWS1lNiWa/l4db1VVVzfaBH49FCEXqpL4xOj/JMp9zWl696TUZc5tL89Mg==", "venue_id"=>"4a7846a7f964a52057e51fe3", "tip"=>"nice place", "commit"=>"Add Tip"}
+Redirected to http://67.205.182.198:44541/tips
+Completed 302 Found in 271ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 74.108.39.105 at 2018-07-28 18:06:24 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 109ms (Views: 17.0ms | ActiveRecord: 0.0ms)
